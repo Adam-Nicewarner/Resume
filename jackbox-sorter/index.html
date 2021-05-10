@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Jackbox Sorter</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+    <script src="games.js"></script>
+    <script src="index.js"></script>
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">I'd reccomend any of the Jackbox games</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+            <li><a href="#" class="text-white">Like on Facebook</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <strong>Games</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>Jackbox Games Sorted</h1>
+      <p class="lead text-muted"></p>
+      <p>
+        <label># of Players:</label><input type="number" id="players" value="0">
+        <a href="#" class="btn btn-primary my-2" id="enter">enter</a>
+        <br>
+        <div id="party-pack">
+          <p>Which Jackbox party packs do you have?(red indicates you have it)</p>
+          <input type="checkbox" class="parties" id="box_1" name="J1" checked=checked>
+          <label id="jack_1" for="box_1"></label>
+          <input type="checkbox" class="parties" id="box_2" name="J2" checked=checked>
+          <label id="jack_2" for="box_2"></label>
+          <input type="checkbox" class="parties" id="box_3" name="J3" checked=checked>
+          <label id="jack_3" for="box_3"></label>
+          <input type="checkbox" class="parties" id="box_4" name="J4" checked=checked>
+          <label id="jack_4" for="box_4"></label>
+          <input type="checkbox" class="parties" id="box_5" name="J5" checked=checked>
+          <label id="jack_5" for="box_5"></label>
+          <input type="checkbox" class="parties" id="box_6" name="J6" checked=checked>
+          <label id="jack_6" for="box_6"></label>
+          <input type="checkbox" class="parties" id="box_7" name="J7" checked=checked>
+          <label id="jack_7" for="box_7"></label>
+        </div>
+      </p>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row" id="all-games">
+      </div>
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+    <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+  </div>
+</footer>
+</html>

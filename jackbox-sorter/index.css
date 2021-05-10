@@ -1,0 +1,149 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+#all-games > div {
+  display: flex;
+}
+
+#all-games {
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#all-games div {
+  position: relative;
+  float:left;
+  background-color: #f4f1eb;
+  box-shadow: 0 0 5px gray;
+  padding: 5px 5px 0px 5px;
+  width: 350px;
+  height: 330px;
+}
+
+#all-games img {
+  height: 220px;
+  width: 340px;
+}
+
+.ranges {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  text-align: right;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+.pack_num {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+.parties {
+  display:none;
+}
+
+#party-pack label {
+  cursor: pointer;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  filter:grayscale(100%);
+  display:inline-block;
+  padding: 0 0 0 0px;
+}
+
+#jack_1 {
+  background:url('images/J1.JPG') no-repeat ;
+}
+
+#box_1:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_2 {
+  background:url('images/J2.JPG') no-repeat ;
+}
+
+#box_2:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_3 {
+  background:url('images/J3.JPG') no-repeat ;
+}
+
+#box_3:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_4 {
+  background:url('images/J4.JPG') no-repeat ;
+}
+
+#box_4:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_5 {
+  background:url('images/J5.JPG') no-repeat ;
+}
+
+#box_5:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_6 {
+  background:url('images/J6.JPG') no-repeat ;
+}
+
+#box_6:checked + label{
+  filter:grayscale(0%);
+}
+
+#jack_7 {
+  background:url('images/J7.JPG') no-repeat ;
+}
+
+#box_7:checked + label{
+  filter:grayscale(0%);
+}
